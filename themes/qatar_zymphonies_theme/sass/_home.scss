@@ -1,0 +1,40 @@
+
+/*Front Page*/
+
+.path-frontpage .feed-icon{
+	display: none;
+}
+
+
+/*Bottom Widgets*/
+
+.bottom-widget{
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 30px;
+
+	.block{
+		margin-bottom: 10px;
+	    background: #f9fcfd;
+	    padding: 10px 20px;
+	    border: 1px solid #e8f9fd;
+	}
+}
+
+/*Clients*/
+
+.clients-wrap{
+    margin-bottom: 20px;
+
+    ul{
+		margin: 0;
+    	padding: 0;
+    }
+
+	li{
+		width: 50%;
+    	float: left;
+		padding: 1%;
+		list-style: none;
+	}
+}

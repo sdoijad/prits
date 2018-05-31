@@ -1,0 +1,49 @@
+# Default settings are not located here. Theme settings in general are handled
+# strictly by this base theme via the @BootstrapSetting annotation discovery
+# process. This is to help sub-theme's inherit its settings properly and
+# determine when a setting should be saved to config as "overridden".
+#
+# @see \Drupal\bootstrap\Plugin\SettingBase
+# @see \Drupal\bootstrap\Plugin\SettingInterface
+# @see \Drupal\bootstrap\Plugin\SettingManager
+# @see \Drupal\bootstrap\Plugin\Form\SystemThemeSettings
+
+# Default features.
+features:
+   comment_user_picture: true
+   comment_user_verification: true
+   favicon: true
+   logo: true
+   name: true
+   node_user_picture: true
+   slogan: true
+facebook_url: 'https://www.facebook.com/zymphonies'
+twitter_url: 'https://twitter.com/zymphonies'
+google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
+linkedin_url: 'http://www.linkedin.com/company/zymphonies'
+pinterest_url: 'https://www.pinterest.com/zymphonies/'
+rss_url: 'rss.xml'
+
+# Toggle Social Media, Credit Link and Slideshow
+show_social_icon: 1
+show_credit_link: 1
+show_slideshow: 1
+
+#Slider Default Values
+no_of_slides: 3
+
+#Slider Default Images & Description
+slide_title_1: 'Katara Cultural Village'
+slide_description_1: 'Katara is a cultural village in Doha, Qatar. It is located on the eastern coast between West Bay and the Pearl. It was soft-opened in October 2010 during the Doha Tribeca Film Festival.' 
+slide_url_1: '#'
+slide_image_path_1: '/images/slider/slide_01.jpg'
+
+slide_title_2: 'Souq Waqif'
+slide_description_2: 'Souq Waqif is a souq in Doha, in the state of Qatar. The souq is noted for selling traditional garments, spices, handicrafts, and souvenirs. It is also home to dozens of restaurants.' 
+slide_url_2: '#'
+slide_image_path_2: '/images/slider/slide_02.jpg'
+
+slide_title_3: 'The Pearl-Qatar'
+slide_description_3: 'The Pearl-Qatar in Doha, Qatar, is an artificial island spanning nearly four million square metres. It is the first land in Qatar to be available for freehold ownership by foreign nationals.' 
+slide_url_3: '#'
+slide_image_path_3: '/images/slider/slide_03.jpg'
